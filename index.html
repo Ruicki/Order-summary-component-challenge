@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class= "conteiner flex center">
+      <div class="content">
+        <div class="image">
+          <img class="image" src="images/illustration-hero.svg" alt="illustration-hero">
+        </div>
+            <div class="flex colum padding">
+              <div class="center">
+                <h1 class="margin title">Order Summary</h1>
+                <p class=" paragraf margin">
+                  You can now listen to millions of songs, audiobooks, and podcasts on any 
+                  device anywhere you like!
+                </p>
+              </div>
+              <div class="center">
+                <div class="price-backgroung">
+                  <div class=" margin center flex price-backgroung">
+                    <div class="flex cancel-padding">
+                      <img src="/images/icon-music.svg" alt="">
+                    </div>
+                    <div class="flex colum title-padding">
+                      <h2 class="title">Annual Plan
+                        <span class="price flex">$59.99/year</span>
+                      </h2>
+                    </div>
+                      <div class="flex icon-padding">
+                        <span class="flex price-cancel cancel-padding change-plan"><a class="change-plan" href="#">Change</a>
+                        </span>
+                      </div>
+                    </div>
+                </div>
+                <div class=" margin center flex colum">
+                  <button class="pay"><a class="pay" href="">Proceed to Payment</a></button>
+                  <button class="cancel"><a class="cancel" href="">Cancel Order</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+        </div>
+  </div>
+      
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ricardo Pinzón</a>.
+  </div> 
+</body>
+</html>
